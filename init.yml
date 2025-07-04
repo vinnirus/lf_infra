@@ -1,0 +1,16 @@
+---
+- name: clone git repo to roles directory
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: ensure roles directory exists
+      file:
+        path: 'roles'
+        state: directory
+
+    - name: clone the git repo into the roles directory
+      git:
+        repo: 'git@github.com:vinnirus/lf_roles.git'
+        dest: 'roles'
+        version: main
+        force: yes
