@@ -8,7 +8,7 @@
         path: 'roles'
         state: directory
 
-    - name: clone the git repo into the roles directory
+    - name: clone git repo into roles directory
       git:
         repo: 'git@github.com:vinnirus/lf_roles.git'
         dest: 'roles'
