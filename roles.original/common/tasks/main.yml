@@ -1,7 +1,0 @@
----
-# tasks file for common
-
-- name: set timezone to Europe/Moscow
-  community.general.timezone:
-    name: Europe/Moscow
-
