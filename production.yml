@@ -1,8 +1,4 @@
 ---
-- hosts: web
-  roles:
-    - { role: 'hostname' }
-
 - hosts: db
   roles:
     - { role: 'hostname' }
