@@ -1,4 +1,4 @@
 ---
 - hosts: db
   roles:
-    - { role: 'hostname' }
+    - { role: 'common' }
