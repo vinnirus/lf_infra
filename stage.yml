@@ -1,4 +1,4 @@
 ---
 - hosts: web
   roles:
-    - { role: 'swaptrasher'}
+    - { role: 'common'}
