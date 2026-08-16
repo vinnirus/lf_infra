@@ -1,4 +1,4 @@
 ---
 - hosts: web
   roles:
-    - { role: '~/linux_factory/ansible/lf_roles/common' }
+    - { role: 'common' }
