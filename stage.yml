@@ -1,4 +1,4 @@
 ---
 - hosts: web
   roles:
-    - { role: 'common'}
+    - { role: '/Users/nikitavinogradov/linux_factory/ansible/lf_roles/common' }
